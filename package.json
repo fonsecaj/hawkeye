@@ -1,0 +1,16 @@
+{
+  "name": "hawkeye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "update-snapshots": "npx playwright test --update-snapshots"
+  },
+  "keywords": ["playwright", "playwright-test", "typescript"],
+  "author": "fonsecaj",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
+  }
+}
